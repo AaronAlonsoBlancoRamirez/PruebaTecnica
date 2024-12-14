@@ -1,5 +1,6 @@
 
 
+
 # Análisis de Sentimientos con Google Cloud NLP
 
 Este proyecto implementa un sistema de análisis de sentimientos utilizando la API de Google Cloud Natural Language Processing (NLP). Se clasifica el sentimiento de textos en **positivo**, **negativo** o **neutral** basado en el contenido de las columnas de un archivo Excel contenido de Titulo y su Resumen.
@@ -72,21 +73,28 @@ La estructura del proyecto es la siguiente:
 - **Entorno virtual recomendado:** Para evitar conflictos de dependencias.
 
 ### Pasos de Instalación
-
-1. **Crear y activar un entorno virtual:**
+El proyecto puede configurarse utilizando un entorno virtual con **Anaconda** o directamente con **Python**. A continuación, se detallan los comandos para cada opción.
+1. **Crear y activar un entorno virtual en Conda**
    ```bash
    conda create -n analisis_sentimiento_env python=3.8
    conda activate analisis_sentimiento_env
-2. **Activa el entorno virtual (Windows):**
+   
+2. **Crear y activar un entorno virtual con Python (cmd o Powershell)**
+   ```bash
+   python -m venv analisis_sentimiento_env
+3. **Activa el entorno virtual en conda:**
+	```bash
+	 conda activate analisis_sentimiento_env
+4. **Activa el entorno virtual en Python:**
 	```bash
 	 analisis_sentimiento_env\Scripts\activate
-3. **Instalar las dependencias:**
+4. **Instalar las dependencias:**
    ```bash
 	 pip install -r requirements.txt
-4. **Ejecutar el análisis de sentimientos:**
+5. **Ejecutar el análisis de sentimientos:**
    ```bash
 	 python -m src.main
-5. **Visualizar los resultados:**
+6. **Visualizar los resultados:**
 	```bash
 	 python -m src.visualization	
 ## Muestra de los resultados
