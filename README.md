@@ -1,11 +1,19 @@
 
+
 # Análisis de Sentimientos con Google Cloud NLP
 
 Este proyecto implementa un sistema de análisis de sentimientos utilizando la API de Google Cloud Natural Language Processing (NLP). Se clasifica el sentimiento de textos en **positivo**, **negativo** o **neutral** basado en el contenido de las columnas de un archivo Excel contenido de Titulo y su Resumen.
 
----
 
-## Descripción
+## Descripción del Proyecto
+
+Este proyecto incluye un conjunto de scripts y herramientas diseñados para realizar [insertar descripción breve del propósito del proyecto, e.g., análisis de datos, procesamiento de imágenes, etc.].
+
+El proyecto se distribuye como un archivo **comprimido** que contiene:
+
+1. **Código fuente**: Scripts en Python organizados en carpetas para facilitar la ejecución y el mantenimiento.
+2. **Dependencias**: Un archivo `requirements.txt` que lista las librerías necesarias para ejecutar el proyecto.
+3. **Archivo de credenciales de Google Cloud**: Un archivo `JSON` con las claves necesarias para acceder a los servicios de Google Cloud requeridos por el proyecto (como almacenamiento, bases de datos o APIs).
 
 ### Características principales:
 - **Uso de Google Cloud NLP:** Análisis preciso de sentimientos utilizando la tecnología de Google.
@@ -21,6 +29,32 @@ Este proyecto implementa un sistema de análisis de sentimientos utilizando la A
 
 ---
 
+### Nota Importante sobre las Credenciales
+
+El archivo JSON de credenciales de Google Cloud es esencial para la ejecución del proyecto, ya que proporciona acceso a los servicios configurados en la plataforma. Asegúrate de:
+
+1. **Mantener este archivo en un lugar seguro**.
+2. **No subirlo a repositorios públicos** para evitar comprometer tus credenciales.
+3. Si es necesario compartir el proyecto, elimina o reemplaza las credenciales con un archivo de ejemplo.
+
+---
+
+### Uso del Archivo JSON
+
+El archivo JSON debe estar ubicado en la raíz del proyecto o en una ubicación definida en las configuraciones del script. Asegúrate de configurar las variables de entorno o las rutas necesarias antes de ejecutar el código.
+
+---
+
+### Cómo Descomprimir el Proyecto
+
+Para utilizar el proyecto, sigue estos pasos:
+1. Descarga el archivo comprimido.
+2. Descomprime el archivo utilizando herramientas como **WinRAR**, **7-Zip** o el comando `unzip` en la terminal.
+3. Navega al directorio descomprimido y sigue las instrucciones del archivo `README.md` para configurar y ejecutar el proyecto.
+
+
+---
+
 ## Estructura del Proyecto
 
 La estructura del proyecto es la siguiente:
@@ -29,6 +63,8 @@ La estructura del proyecto es la siguiente:
 
 
 ## Instalación y Configuración
+
+###NOTA IMPORTANTE 
 
 ### Prerrequisitos
 - **Python:** Versión 3.8 o superior.
